@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "hello-expo",
+    "slug": "test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.harsh.test",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A native component that will render on iOS, Android, and web.",
+    "extra": {
+      "eas": {
+        "projectId": "a71535ea-ef4d-44cc-a404-9c79cf1aa915"
+      }
+    },
+    "owner": "harshvats"
+  }
+}

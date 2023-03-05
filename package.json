@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "expo": "^48.0.5"
+  },
+  "scripts": {
+    "build:android": "eas build -p android --profile preview"
+  }
+}
