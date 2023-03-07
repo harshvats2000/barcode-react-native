@@ -1,8 +1,12 @@
 {
-  "dependencies": {
-    "expo": "^48.0.5"
-  },
   "scripts": {
+    "start": "expo start",
     "build:android": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "expo": "^48.0.5",
+    "expo-barcode-scanner": "^12.3.2",
+    "react": "^18.2.0",
+    "react-native": "^0.71.3"
   }
 }
